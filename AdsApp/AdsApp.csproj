@@ -57,6 +57,13 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="js\controllers\LoginCtrl.js" />
+    <Content Include="js\controllers\RegisterCtrl.js" />
+    <Content Include="js\directives\categoies.js" />
+    <Content Include="js\directives\left-sidebar.js" />
+    <Content Include="js\directives\public-ads.js" />
+    <Content Include="js\directives\towns.js" />
+    <Content Include="js\services\data\townsData.js" />
     <Content Include="lib\angular\angular-animate.min.js.map" />
     <Content Include="lib\angular\angular-cookies.min.js.map" />
     <Content Include="lib\angular\angular-loader.min.js.map" />
@@ -361,18 +368,16 @@
     <Content Include="templates\categories.html" />
     <Content Include="templates\home.html" />
     <Content Include="templates\left-sidebar.html" />
+    <Content Include="templates\login.html" />
     <Content Include="templates\public-ads.html" />
+    <Content Include="templates\register.html" />
     <Content Include="templates\towns.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="js\directives\" />
-    <Folder Include="js\services\" />
-    <Folder Include="templates\directives\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

@@ -4,9 +4,21 @@ c:\users\diemki\documents\visual studio 2013\Projects\SPAWithAngularJS\AdsApp\bi
 c:\users\diemki\documents\visual studio 2013\Projects\SPAWithAngularJS\AdsApp\obj\Debug\AdsApp.dll
 c:\users\diemki\documents\visual studio 2013\Projects\SPAWithAngularJS\AdsApp\obj\Debug\AdsApp.pdb
 c:\users\diemki\documents\visual studio 2013\Projects\SPAWithAngularJS\AdsApp\obj\Debug\AdsApp.csprojResolveAssemblyReference.cache
-E:\SoftUni\SPAWithAngularJS\AdsApp\bin\AdsApp.dll.config
-E:\SoftUni\SPAWithAngularJS\AdsApp\bin\AdsApp.dll
-E:\SoftUni\SPAWithAngularJS\AdsApp\bin\AdsApp.pdb
-E:\SoftUni\SPAWithAngularJS\AdsApp\obj\Debug\AdsApp.csprojResolveAssemblyReference.cache
-E:\SoftUni\SPAWithAngularJS\AdsApp\obj\Debug\AdsApp.dll
-E:\SoftUni\SPAWithAngularJS\AdsApp\obj\Debug\AdsApp.pdb
+D:\Plamen\SoftUni\SPAWithAngularJS\AdsApp\bin\AdsApp.dll.config
+D:\Plamen\SoftUni\SPAWithAngularJS\AdsApp\bin\AdsApp.dll
+D:\Plamen\SoftUni\SPAWithAngularJS\AdsApp\bin\AdsApp.pdb
+D:\Plamen\SoftUni\SPAWithAngularJS\AdsApp\obj\Debug\AdsApp.csprojResolveAssemblyReference.cache
+D:\Plamen\SoftUni\SPAWithAngularJS\AdsApp\obj\Debug\AdsApp.dll
+D:\Plamen\SoftUni\SPAWithAngularJS\AdsApp\obj\Debug\AdsApp.pdb
+E:\SoftUni\Projects\SPA with AngularJS\SPAWithAngularJS\AdsApp\bin\AdsApp.dll.config
+E:\SoftUni\Projects\SPA with AngularJS\SPAWithAngularJS\AdsApp\bin\AdsApp.dll
+E:\SoftUni\Projects\SPA with AngularJS\SPAWithAngularJS\AdsApp\bin\AdsApp.pdb
+E:\SoftUni\Projects\SPA with AngularJS\SPAWithAngularJS\AdsApp\obj\Debug\AdsApp.csprojResolveAssemblyReference.cache
+E:\SoftUni\Projects\SPA with AngularJS\SPAWithAngularJS\AdsApp\obj\Debug\AdsApp.dll
+E:\SoftUni\Projects\SPA with AngularJS\SPAWithAngularJS\AdsApp\obj\Debug\AdsApp.pdb
+E:\SoftUni\Projects\SPA with AngularJS\Ads-AngularJS\ProjectAngularJS\AdsApp\bin\AdsApp.dll.config
+E:\SoftUni\Projects\SPA with AngularJS\Ads-AngularJS\ProjectAngularJS\AdsApp\bin\AdsApp.dll
+E:\SoftUni\Projects\SPA with AngularJS\Ads-AngularJS\ProjectAngularJS\AdsApp\bin\AdsApp.pdb
+E:\SoftUni\Projects\SPA with AngularJS\Ads-AngularJS\ProjectAngularJS\AdsApp\obj\Debug\AdsApp.csprojResolveAssemblyReference.cache
+E:\SoftUni\Projects\SPA with AngularJS\Ads-AngularJS\ProjectAngularJS\AdsApp\obj\Debug\AdsApp.dll
+E:\SoftUni\Projects\SPA with AngularJS\Ads-AngularJS\ProjectAngularJS\AdsApp\obj\Debug\AdsApp.pdb
