@@ -1,0 +1,12 @@
+c:\users\diemki\documents\visual studio 2013\Projects\SPAWithAngularJS\AdsApp\bin\AdsApp.dll.config
+c:\users\diemki\documents\visual studio 2013\Projects\SPAWithAngularJS\AdsApp\bin\AdsApp.dll
+c:\users\diemki\documents\visual studio 2013\Projects\SPAWithAngularJS\AdsApp\bin\AdsApp.pdb
+c:\users\diemki\documents\visual studio 2013\Projects\SPAWithAngularJS\AdsApp\obj\Debug\AdsApp.dll
+c:\users\diemki\documents\visual studio 2013\Projects\SPAWithAngularJS\AdsApp\obj\Debug\AdsApp.pdb
+c:\users\diemki\documents\visual studio 2013\Projects\SPAWithAngularJS\AdsApp\obj\Debug\AdsApp.csprojResolveAssemblyReference.cache
+E:\SoftUni\SPAWithAngularJS\AdsApp\bin\AdsApp.dll.config
+E:\SoftUni\SPAWithAngularJS\AdsApp\bin\AdsApp.dll
+E:\SoftUni\SPAWithAngularJS\AdsApp\bin\AdsApp.pdb
+E:\SoftUni\SPAWithAngularJS\AdsApp\obj\Debug\AdsApp.csprojResolveAssemblyReference.cache
+E:\SoftUni\SPAWithAngularJS\AdsApp\obj\Debug\AdsApp.dll
+E:\SoftUni\SPAWithAngularJS\AdsApp\obj\Debug\AdsApp.pdb
