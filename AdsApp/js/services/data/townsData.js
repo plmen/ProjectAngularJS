@@ -1,13 +1,13 @@
-﻿app.factory('townsData', ['$resource', 'baseServiceUrl', function ($resource, baseServiceUrl) {
+﻿app.factory('townsService',
+    function ($resource, baseServiceUrl) {
+        var townsResource = $resource(
+            baseServiceUrl + 'towns'
+        );
 
-    var resource = $resource(baseServiceUrl + 'towns')
-
-    function getAllTowns() {
-        return resource.query();
+        return {
+            getTowns: function (success, error) {
+                return townsResource.query(success, error);
+            }
+        }
     }
-
-    return {
-        getTowns: getTowns
-
-    };
-}]); 
+);
