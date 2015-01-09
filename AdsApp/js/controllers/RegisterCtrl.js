@@ -7,6 +7,8 @@ app.controller('RegisterCtrl',
         $scope.userData = { townId: null };
         $scope.towns = townsService.getTowns();
 
-       
+        $scope.register = function (user) {
+            console.log(user)
+        }
     }
 );

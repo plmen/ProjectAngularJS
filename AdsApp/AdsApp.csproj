@@ -58,12 +58,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="js\controllers\LoginCtrl.js" />
+    <Content Include="js\controllers\PublicAdsCtrl.js" />
     <Content Include="js\controllers\RegisterCtrl.js" />
     <Content Include="js\directives\categoies.js" />
     <Content Include="js\directives\left-sidebar.js" />
     <Content Include="js\directives\public-ads.js" />
     <Content Include="js\directives\towns.js" />
+    <Content Include="js\services\authentication.js" />
+    <Content Include="js\services\data\adsData.js" />
     <Content Include="js\services\data\townsData.js" />
+    <Content Include="js\services\data\userData.js" />
     <Content Include="lib\angular\angular-animate.min.js.map" />
     <Content Include="lib\angular\angular-cookies.min.js.map" />
     <Content Include="lib\angular\angular-loader.min.js.map" />

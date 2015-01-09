@@ -1,6 +1,6 @@
 app.directive('leftPublicSidebar', function () {
     return {
-        controler: 'HomeCtrl',
+        controller: 'HomeCtrl',
         restrict: 'E',
         templateUrl: 'templates/left-sidebar.html',
         replace: true,
