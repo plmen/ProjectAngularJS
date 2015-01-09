@@ -1,4 +1,4 @@
-﻿'use strict';
-app.controller('HomeCtrl', ['$scope', function ($scope) {
+﻿app.controller('HomeCtrl', ['$scope', 'authentication', function ($scope, authentication) {
     $scope.headerTitle = 'HomePage';
+    $scope.isLoggedIn = authentication.isLoggedIn;
 }]);

@@ -4,10 +4,13 @@
 <div id="wrapper">
     <div class="row">
         <div class="col-md-3">
-            <left-public-sidebar></left-public-sidebar>
+            <div class="box" ng-include="'templates/left-sidebar.html'" ng-if="!isLoggedIn"></div>
+            <div class="box" ng-include="'templates/logged-in-sidebar.html'" ng-if="isLoggedIn"></div>            
         </div>
         <div class="col-md-6">
-            <public-ads></public-ads>
+            <div class="box">
+                <public-ads></public-ads>
+            </div>
         </div>
         <div class="col-md-3">
             <categories></categories>
