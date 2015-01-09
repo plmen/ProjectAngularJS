@@ -1,14 +1,14 @@
 ﻿'use strict';
 
 app.controller('RegisterCtrl',
-    function ($scope, $rootScope, $location, townsService) {
+    function ($scope, $rootScope, $location, townsData) {
         $rootScope.pageTitle = "Register";
 
         $scope.userData = { townId: null };
-        $scope.towns = townsService.getTowns();
+        $scope.towns = townsData.getTowns();
 
         $scope.register = function (user) {
-            console.log(user)
+            //console.log(user)
         }
     }
 );

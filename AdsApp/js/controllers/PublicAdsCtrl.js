@@ -4,6 +4,6 @@ app.controller('PublicAdsCtrl', ['$scope', 'adsData', function ($scope,  adsData
     .$promise
     .then(function (data) {
         $scope.adsData = data;
-        console.log(data);
+        //console.log(data);
     })
 }])

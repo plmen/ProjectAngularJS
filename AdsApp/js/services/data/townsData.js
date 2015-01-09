@@ -1,13 +1,27 @@
-﻿app.factory('townsService',
+﻿app.factory('townsData', ['$resource', 'baseServiceUrl',
     function ($resource, baseServiceUrl) {
-        var townsResource = $resource(
-            baseServiceUrl + 'towns'
-        );
+        var $resource = $resource(baseServiceUrl + 'towns');
+        
+        function getAllTowns() {
+            return $resource.query();
+        }
 
         return {
-            getTowns: function (success, error) {
-                return townsResource.query(success, error);
-            }
+            getTowns: getAllTowns           
         }
     }
-);
+]);
+
+//app.factory('townsData',
+//    function ($resource, baseServiceUrl) {
+//        var townsResource = $resource(
+//            baseServiceUrl + 'towns'
+//        );
+
+//        return {
+//            getTowns: function (success, error) {
+//                return townsData.query(success, error);
+//            }
+//        }
+//    }
+//);
