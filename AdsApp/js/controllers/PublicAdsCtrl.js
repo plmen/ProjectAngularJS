@@ -1,5 +1,4 @@
-﻿'use strict';
-app.controller('PublicAdsCtrl', ['$scope', 'adsData', function ($scope,  adsData) {
+﻿app.controller('PublicAdsCtrl', ['$scope', 'adsData', function ($scope,  adsData) {
     $scope.ready = false;
     adsData.getPublicAds()
     .$promise
@@ -7,5 +6,5 @@ app.controller('PublicAdsCtrl', ['$scope', 'adsData', function ($scope,  adsData
         $scope.adsData = data;
         $scope.ready = true;
         //console.log(data);
-    })
+    });
 }])

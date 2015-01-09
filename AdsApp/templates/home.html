@@ -4,8 +4,12 @@
 <div id="wrapper">
     <div class="row">
         <div class="col-md-3">
-            <div class="box" ng-include="'templates/left-sidebar.html'" ng-if="!isLoggedIn"></div>
-            <div class="box" ng-include="'templates/logged-in-sidebar.html'" ng-if="isLoggedIn"></div>            
+            <!--<div class="box" ng-include="'templates/left-sidebar.html'" ng-if="!isLoggedIn"></div>
+            <div class="box" ng-include="'templates/logged-in-sidebar.html'" ng-if="isLoggedIn"></div>-->
+            <div class="box">
+                <left-public-sidebar ng-if="!isLoggedIn"></left-public-sidebar>
+                <logged-in-sidebar ng-if="isLoggedIn"></logged-in-sidebar>
+            </div>
         </div>
         <div class="col-md-6">
             <div class="box">

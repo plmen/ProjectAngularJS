@@ -57,6 +57,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="js\controllers\CategoriesCtrl.js" />
     <Content Include="js\controllers\LoggedInSidebarCtrl.js" />
     <Content Include="js\controllers\LoginCtrl.js" />
     <Content Include="js\controllers\PublicAdsCtrl.js" />
@@ -69,6 +70,7 @@
     <Content Include="js\directives\towns.js" />
     <Content Include="js\services\authentication.js" />
     <Content Include="js\services\data\adsData.js" />
+    <Content Include="js\services\data\categoriesData.js" />
     <Content Include="js\services\data\townsData.js" />
     <Content Include="js\services\data\userData.js" />
     <Content Include="lib\angular\angular-animate.min.js.map" />

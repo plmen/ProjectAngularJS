@@ -1,9 +1,8 @@
-﻿'use strict';
-app.controller('TownsCtrl', ['$scope', 'townsData', function ($scope, townsData) {
+﻿app.controller('TownsCtrl', ['$scope', 'townsData', function ($scope, townsData) {
    townsData.getTowns()
     .$promise
     .then(function (data) {
-        $scope.townsData = data;
+        $scope.towns = data;
         //console.log(data);
     })
 }])
