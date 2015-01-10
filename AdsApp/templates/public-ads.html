@@ -5,4 +5,12 @@
             {{ad.title}}
         </li>
     </ul>
+    <pagination 
+                total-items="adsData.numItems" 
+                ng-model="startPage"
+                items-per-page="pageSize" 
+                ng-change="pageChanged()"
+                max-size="9" 
+                boundary-links="true">
+    </pagination>
 </div>

@@ -14,6 +14,10 @@
 
     loadPublicAds();
 
+    $scope.pageChanged = function () {
+        
+    }
+
     $scope.$on('categoryClicked', function (event, category) {
         loadPublicAds(filter.getFilterParams());
     });
