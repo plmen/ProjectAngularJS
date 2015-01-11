@@ -74,6 +74,7 @@
     <Content Include="js\services\data\townsData.js" />
     <Content Include="js\services\data\userData.js" />
     <Content Include="js\services\filter.js" />
+    <Content Include="lib\angular-local-storage\angular-local-storage.js" />
     <Content Include="lib\angular\angular-animate.min.js.map" />
     <Content Include="lib\angular\angular-cookies.min.js.map" />
     <Content Include="lib\angular\angular-loader.min.js.map" />

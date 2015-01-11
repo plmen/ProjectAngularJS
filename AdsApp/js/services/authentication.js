@@ -1,5 +1,4 @@
-﻿app.factory('authentication',
-    function () {
+﻿app.factory('authentication', function () {
         var key = 'user';
 
         function saveUserData(data) {
